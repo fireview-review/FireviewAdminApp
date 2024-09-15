@@ -1008,11 +1008,11 @@ a:focus {
     --primary-color2: #888B8E;
     --primary-color3: #141B22;
     --primary-color4: #141B22;
-    --primary-color5: #28e3da;
+    --primary-color5: #fab304;
     --primary-color6: #F6F6F6;
     --primary-color7: #fff;
     --primary-color8: #fff;
-    --primary-color9: #21E786;
+    --primary-color9: #fab304;
     --primary-color10: #C2C3C5;
     --primary-color11: #141B22;
     --primary-color12: #fff;
@@ -1067,27 +1067,28 @@ a:focus {
     --color1:#e6e6e6;
     
     
-    --color1:#00CFC8;
+    --color1:#fab304;
     --color1:#1e2022;
-    --color1:#03fff6;
+    --color1:#fab304;
     --color1:#009c97;
     --color1:#36393d;
     --color1:#060607;
 
-
-    --background-body: #040B11;
+    
+    
+    --background-body: var(--primary-color8);
     --primary-color: #C2C3C5;
     --primary-color2: #C2C3C5;
     --primary-color3: #fff;
     --primary-color4: #141B22;
-    --primary-color5: #28e3da;
+    --primary-color5: #fab304;
     --primary-color6: #141B22;
-    --primary-color7: #040B11;
+    --primary-color7: rgba(50,50,50,0.5);
     --primary-color8: #141B22;
     --primary-color9: #fff;
     --primary-color10: #141B22;
-    --primary-color11: #21E786;
-    --primary-color12: #21E786;
+    --primary-color11: #fab304;
+    --primary-color12: #fab304;
     --primary-color13: #fff;
     --primary-color14: #fff;
     --primary-color15: transparent;
@@ -1194,7 +1195,7 @@ header #site-header-inner .header-right .tf-button i {
 }
 
 header #site-header-inner .header-right .tf-button::before {
-    background-color: #21E786;
+    background-color: orange;
 }
 
 header #site-header-inner .header-right .tf-button.connect {
@@ -1623,7 +1624,6 @@ header.absolute {
     width: 100%;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
     z-index: 9999;
-    background: var(--background-body);
     border: none;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
@@ -1979,7 +1979,7 @@ header.absolute {
 /* Footer
 -------------------------------------------------------------- */
 .footer {
-    background: url("../images/background/bg-footer.jpg") center center no-repeat;
+    background: url("../images/background/bg-footer.png") center center no-repeat;
     background-size: cover;
 }
 
@@ -2076,7 +2076,7 @@ header.absolute {
 }
 
 .footer .widget.widget-subcribe #subscribe-form .tf-button:hover {
-    border-color: #21E786;
+    border-color: orange;
     background-color: transparent;
     color: #fff;
 }
@@ -2300,7 +2300,8 @@ header.absolute {
 /*Action Box -------------------------
 ------------------------------------------ */
 .action-box .action-box-inner {
-    background: url("../images/background/bg-action-box1.png"), linear-gradient(268.28deg, #2333DE -1.34%, #0ABE66 100%);
+    background: url("../images/background/bg-action-box.png"),
+    linear-gradient(268.28deg, #2333DE -1.34%, #0ABE66 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

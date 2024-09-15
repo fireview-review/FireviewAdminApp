@@ -3,37 +3,18 @@ import Link from "next/link"
 export default function Footer1() {
     return (
         <>
+                    <div  >
 
-            <footer className="footer">
-                <div className="action-box">
-                    <div className="tf-container">
-                        <div className="row">
-                            <div className="col-md-12">
-                            <div className="action-box-inner">
-    <h2 className="title">EXPLORE NEW HORIZONS</h2>
-    <p className="content">Unlock exclusive features and content with your free sign-up. Don’t miss out!</p>
-    <div className="group-btn">
-        <Link href="/contact" className="tf-button discord" data-toggle="modal" data-target="#popup_bid">
-            <i className="icon-fl-vt" /><span>JOIN DISCORD</span>
-        </Link>
-        <Link href="/collection" className="tf-button">
-            <span>SIGN UP NOW</span>
-        </Link>
-    </div>
-</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <footer style={{background:"rgba(0,0,0,0.1)"}} className="footer">
+
                 <div className="footer-inner">
                     <div className="tf-container">
                         <div className="row">
                             <div className="col-xl-4 col-lg-3 col-md-12">
                                 <div className="widget widget-infor">
                                     <div className="logo">
-                                        <img id="logo_footer" src="/assets/images/logo/logo-footer.png" alt="Image" />
                                     </div>
-                                    <p className="content">Harness the power of focused learning, maximize your time for life's real priorities.</p>
+                                    <p className="content">Some text about the fireview operations.</p>
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-4 col-md-12">
@@ -76,7 +57,7 @@ export default function Footer1() {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="bottom">
-                                    <p className="copy-right">GALENAI {new Date().getFullYear()} - ALL rights reserved</p>
+                                    <p className="copy-right">Fireview {new Date().getFullYear()} - ALL rights reserved</p>
                                     <ul className="social-item">
                                         <li><Link href="#"><i className="fab fa-twitter" /></Link></li>
                                         <li><Link href="#"><i className="fab fa-facebook" /></Link></li>
@@ -89,8 +70,10 @@ export default function Footer1() {
                             </div>
                         </div>
                     </div>
-                </div>
-            </footer>
+                </div>  
+
+            </footer>   
+                    </div>
 
         </>
     )

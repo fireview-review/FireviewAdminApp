@@ -23,7 +23,6 @@ export default function CommingSoon() {
                                 <button className="tf-button" type="submit" id="subscribe-button">SIGN UP</button>
                             </form>
                             <div className="group-btn">
-                                <Link href="/contact" className="tf-button discord" data-toggle="modal" data-target="#popup_bid"><i className="icon-fl-vt" /><span>DISCORD</span></Link>
                                 <Link href="/collection" className="tf-button">WHITELIST NOW</Link>
                             </div>
                             <ul className="social-item">

@@ -14,7 +14,7 @@ export default function Footer3() {
                                     <div className="logo">
                                         <img id="logo_footer" src="/assets/images/logo/logo-footer.png" alt="Image" />
                                     </div>
-                                    <p className="content">Harness the power of focused learning, maximize your time for life's real priorities.</p>
+                                    <p className="content">Some text about the fireview operations.</p>
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-4 col-md-12">
@@ -57,7 +57,7 @@ export default function Footer3() {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="bottom">
-                                    <p className="copy-right">GALENAI {new Date().getFullYear()} - ALL rights reserved</p>
+                                    <p className="copy-right">Fireview {new Date().getFullYear()} - ALL rights reserved</p>
                                     <ul className="social-item">
                                         <li><Link href="#"><i className="fab fa-twitter" /></Link></li>
                                         <li><Link href="#"><i className="fab fa-facebook" /></Link></li>

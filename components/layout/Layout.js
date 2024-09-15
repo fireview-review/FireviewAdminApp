@@ -39,9 +39,9 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
             <AddClassBody />
             <div id="wrapper" className="wrapper-style">
                 <div id="page" className="clearfix">
-                    {!headerStyle && <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isModal={isModal} handleModal={handleModal} />}
-                    {headerStyle == 1 ? <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isModal={isModal} handleModal={handleModal} /> : null}
-                    {headerStyle == 2 ? <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isModal={isModal} handleModal={handleModal} /> : null}
+                    {!headerStyle && <Header1 scroll={false} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isModal={isModal} handleModal={handleModal} />}
+                    {headerStyle == 1 ? <Header1 scroll={false} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isModal={isModal} handleModal={handleModal} /> : null}
+                    {headerStyle == 2 ? <Header2 scroll={false} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isModal={isModal} handleModal={handleModal} /> : null}
 
 
                     {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}

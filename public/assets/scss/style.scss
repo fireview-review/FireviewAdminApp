@@ -1060,7 +1060,7 @@ a {
 }
 
 .is_dark {
-    --background-body: #040B11;
+    --background-body: linear-gradient(268.28deg, #52575e -1.34%, #747c7c 100%);;
     --primary-color: #C2C3C5;
     --primary-color2: #C2C3C5;
     --primary-color3: #fff;
@@ -1655,7 +1655,6 @@ header {
         width: 100%;
         box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 30%);
         z-index: 9999;
-        background: var(--background-body);
         border: none;
         opacity: 1;
         -webkit-transition: all 0.5s ease;
@@ -1990,7 +1989,8 @@ header {
 /* Footer
 -------------------------------------------------------------- */
 .footer {
-    background: url('../images/background/bg-footer.jpg') center center no-repeat;
+    background: url('../images/background/bg-footer.png') center center no-repeat;
+    opacity:0.9;
     background-size: cover;
 
     .footer-inner {

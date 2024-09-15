@@ -37,7 +37,7 @@
 .tf-button.style-2 {
     background: transparent;
     color: var(--primary-color3);
-    border: 2px solid #21E786;
+    border: 2px solid #fab304;
 }
 
 .tf-button::before {
@@ -49,7 +49,7 @@
     height: 110%;
     width: 0%;
     content: "";
-    background-color: #21E786;
+    background-color: #fab304;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -59,9 +59,9 @@
 
 .tf-button:hover {
     z-index: 2;
-    color: #fff;
+    color: black;
     background: transparent;
-    border: 2px solid #21E786;
+    border: 2px solid #fab304;
 }
 
 .tf-button:hover::before {
@@ -70,12 +70,12 @@
 }
 
 .tf-button:hover.style-2 {
-    background-color: #21E786;
-    color: var(--primary-color3);
+    background-color: #fab304;
+    color: black;
 }
 
 .tf-button:hover.style-2::before {
-    background-color: #21E786;
+    background-color: #fab304;
 }
 
 /* Heading
@@ -1053,7 +1053,7 @@
 }
 
 .tf-item-detail-inner .group-btn .tf-button.style-2:hover {
-    border-color: #21E786;
+    border-color: orange;
 }
 
 .collection .group-btn-nav {
@@ -1262,7 +1262,7 @@
 }
 
 .comming-soon .comming-soon-inner .group-btn .tf-button.discord:hover::before {
-    background-color: #21E786;
+    background-color: orange;
 }
 
 .comming-soon .comming-soon-inner .social-item {
@@ -2448,7 +2448,7 @@
     font-family: var(--bakbak);
     font-weight: 400;
     font-size:50px;
-    color: #21E786;
+    color: #fab304;
     opacity: 0.9;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -2493,7 +2493,7 @@
     opacity: 0.3;
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #21E786;
+    -webkit-text-stroke-color: #fab304;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -2516,7 +2516,7 @@
 }
 
 .tf-step:hover .step-title .sub-number {
-    color: #21E786;
+    color: #fab304;
     opacity: 0.8;
 }
 
@@ -2533,8 +2533,8 @@
     height: 50px;
     top: 0px;
     left: 0px;
-    border-left: 5px solid #21E786;
-    border-top: 5px solid #21E786;
+    border-left: 5px solid #fab304;
+    border-top: 5px solid #fab304;
 }
 
 .tf-step::after {
@@ -2550,8 +2550,8 @@
     height: 50px;
     bottom: 0px;
     right: 0px;
-    border-right: 5px solid #21E786;
-    border-bottom: 5px solid #21E786;
+    border-right: 5px solid #fab304;
+    border-bottom: 5px solid #fab304;
 }
 
 .tf-step.active,
@@ -2630,7 +2630,7 @@
 .tf-flat-accordion2 .flat-toggle2 .toggle-title::after {
     font-family: "Font Awesome 5 Pro";
     font-weight: 300;
-    color: #21E786;
+    color: #fab304;
     content: "\f067";
     opacity: 0.4;
     margin-right: 0px;
@@ -2715,12 +2715,12 @@
 
 .tf-roadmap .pagination-roadmap .swiper-button-prev:hover::after,
 .tf-roadmap .pagination-roadmap .swiper-button-next:hover::after {
-    background: #21E786;
+    background: #fab304;
     color: #141B22;
 }
 
 .tf-roadmap .pagination-roadmap .swiper-button-next::after {
-    background: #21E786;
+    background: #fab304;
     color: #141B22;
 }
 
@@ -2742,7 +2742,7 @@
     left: 0;
     width: 50%;
     height: 5px;
-    background: linear-gradient(180deg, #27AE60 0%, #27AE60 100%);
+    background: linear-gradient(180deg, #fab304 0%, #fab304 100%);
     z-index: 0;
 }
 
@@ -2780,8 +2780,8 @@
     height: 50px;
     top: 0px;
     left: 0px;
-    border-left: 5px solid #21E786;
-    border-top: 5px solid #21E786;
+    border-left: 5px solid #fab304;
+    border-top: 5px solid #fab304;
 }
 
 .tf-roadmap .roadmap-box .content::after {
@@ -2797,8 +2797,8 @@
     height: 50px;
     bottom: 0px;
     right: 0px;
-    border-right: 5px solid #21E786;
-    border-bottom: 5px solid #21E786;
+    border-right: 5px solid #fab304;
+    border-bottom: 5px solid #fab304;
 }
 
 .tf-roadmap .roadmap-box .content.active,

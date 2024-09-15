@@ -18,7 +18,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
                                 <div id="site-logo" className="clearfix">
                                     <div id="site-logo-inner">
                                         <Link href="/" rel="home" className="main-logo">
-                                            <img id="logo_header" src="/assets/images/logo/logo.png" alt="Image" />
+                                            <img style={{ maxHeight: "68px"}} src="/assets/images/logo/logo.png" alt="Image" />
                                         </Link>
                                     </div>
                                 </div>
@@ -30,8 +30,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
                                     </div>
                                 </div>
                                 <div className="header-right">
+                                    <div style={{position:"absolute",opacity:0, marginTop:"100000000px"}}>
                                     <ThemeSwitch />
-                                    <Link href="/contact" className="tf-button discord"><i className="icon-fl-vt" /><span>DISCORD</span></Link>
+
+                                    </div>
                                     <a onClick={handleModal} className="tf-button connect" data-toggle="modal" data-target="#popup_bid">
                                         <i className="icon-fl-wallet" /><span>CONNECT</span></a>
                                 </div>

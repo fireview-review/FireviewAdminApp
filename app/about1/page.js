@@ -257,7 +257,7 @@ export default function About1() {
                             <div className="row">
                                 <div className="col-md-12 ">
                                     <div className="tf-heading mb60 ">
-                                        <h2 className="heading"><span>GALENAI</span> PARTNER</h2>
+                                        <h2 className="heading"><span>Fireview</span> PARTNER</h2>
                                     </div>
                                 </div>
                                 <div className="col-md-12 ">
